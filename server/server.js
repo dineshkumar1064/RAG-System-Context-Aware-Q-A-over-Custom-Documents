@@ -9,7 +9,7 @@ import { requireAuth } from "./middleware/auth.js";
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: "https://ragdocchat.vercel.app" }));
 app.use(express.json({ limit: "2mb" }));
 
 app.get("/api/health", (req, res) => res.json({ ok: true }));
