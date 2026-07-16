@@ -168,11 +168,12 @@ export default function Login({ onSuccess }) {
             </button>
 
             <p className="login-footnote">Access is restricted to authorized workspace members.</p>
+            <p className="login-credential-note">Login credentials are available on my portfolio</p>
             <p className="login-founder">
-              Founder :{" "}
-              <a href="https://www.linkedin.com/in/dinesh-kumar04/" target="_blank" rel="noopener noreferrer">
-                Dinesh Kumar
-              </a>
+            Founder :{" "}
+            <a href="https://www.linkedin.com/in/dinesh-kumar04/" target="_blank" rel="noopener noreferrer">
+              Dinesh Kumar
+            </a>
             </p>
           </form>
         </div>
